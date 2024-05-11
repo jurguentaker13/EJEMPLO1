@@ -17,7 +17,7 @@ public class Ejercicio {
     @GetMapping("/metros")
     public String calculo(double x){
         var resultado = x *3.2808;
-        return "Hola MUNDO, el resultado es : " + resultado + " en pies";
+        return "Hola mundo, el resultado es : " + resultado + " en pies";
     }
     @GetMapping("/promedio2")
     public String Promedio2(double a, double b, double c, double d, double e){
